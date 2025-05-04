@@ -1,3 +1,6 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
 /* Reset */
 /* 1. Use a more-intuitive box-sizing model */
 *,
@@ -75,9 +78,6 @@ h6 {
 #__next {
   isolation: isolate;
 }
-
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
 /* CSS custom variables */
 :root {
