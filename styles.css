@@ -99,15 +99,11 @@ h6 {
 
   /* Enhanced Colors for Accessibility */
   --green-850: hsl(167, 40%, 18%);
-  /* Darker green for better contrast */
   --blue-850: hsl(198, 62%, 20%);
-  /* Darker blue for better contrast */
   --grey-700: hsl(213, 9%, 30%);
-  /* Darker gray for better contrast */
   --grey-500: hsl(232, 10%, 45%);
-  /* Darker gray for better contrast */
   --grey-350: hsl(210, 8%, 45%);
-  /* Darker gray for better contrast */
+
 
   /* Typography */
   --f-family-primary: 'Barlow', sans-serif;
@@ -164,7 +160,7 @@ body {
 .header__link {
   color: var(--white);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   /* Add text-shadow to improve contrast against varying background */
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
   font-weight: var(--f-weight-medium);
@@ -177,7 +173,7 @@ body {
   padding: 1rem 1.5rem;
   border-radius: 2rem;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   transition: background-color 0.3s, color 0.3s;
   /* Remove text-shadow for contact button which has solid background */
   text-shadow: none;
@@ -402,7 +398,7 @@ body {
   color: var(--grey-350);
   /* Updated from grey-400 for better contrast */
   font-size: 0.9rem;
-  margin-top: -0.2rem;
+  margin-top: -1rem;
   line-height: 1;
 }
 
