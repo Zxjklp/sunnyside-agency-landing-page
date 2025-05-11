@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-Xzzl1Xhoa5]
-- Live Site URL: [https://zxjklp.github.io/sunnyside-agency-landing-page/#]
+- [Solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-Xzzl1Xhoa5)
+- [Live Site](https://zxjklp.github.io/sunnyside-agency-landing-page/#)
 
 ### Built with
 
