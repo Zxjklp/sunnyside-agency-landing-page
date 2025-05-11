@@ -165,6 +165,9 @@ body {
   color: var(--white);
   text-decoration: none;
   font-size: 1rem;
+  /* Add text-shadow to improve contrast against varying background */
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  font-weight: var(--f-weight-medium);
 }
 
 .header__link--contact {
@@ -176,6 +179,8 @@ body {
   text-transform: uppercase;
   font-size: 0.9rem;
   transition: background-color 0.3s, color 0.3s;
+  /* Remove text-shadow for contact button which has solid background */
+  text-shadow: none;
 }
 
 .header__link--contact:hover {
@@ -210,6 +215,8 @@ body {
   font-size: 3.5rem;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+  /* Add text-shadow to improve h1 contrast against varying background */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Features Section */
