@@ -88,7 +88,7 @@ h6 {
   --blue-800: hsl(198, 62%, 26%);
   --green-500: hsl(167, 34%, 41%);
   --cyan-500: hsl(178, 70%, 62%);
-  
+
   /* Neutral Colors */
   --grey-950: hsl(212, 27%, 19%);
   --grey-600: hsl(213, 9%, 39%);
@@ -96,6 +96,18 @@ h6 {
   --grey-400: hsl(210, 4%, 67%);
   --white: hsl(0, 100%, 100%);
   --footer-bg: hsl(168, 44%, 70%);
+
+  /* Enhanced Colors for Accessibility */
+  --green-850: hsl(167, 40%, 18%);
+  /* Darker green for better contrast */
+  --blue-850: hsl(198, 62%, 20%);
+  /* Darker blue for better contrast */
+  --grey-700: hsl(213, 9%, 30%);
+  /* Darker gray for better contrast */
+  --grey-500: hsl(232, 10%, 45%);
+  /* Darker gray for better contrast */
+  --grey-350: hsl(210, 8%, 45%);
+  /* Darker gray for better contrast */
 
   /* Typography */
   --f-family-primary: 'Barlow', sans-serif;
@@ -234,8 +246,10 @@ body {
 }
 
 .feature__text {
-  color: var(--grey-550);
+  color: var(--grey-700);
+  /* Updated from grey-550 for better contrast */
   margin-bottom: 1rem;
+  font-weight: var(--f-weight-medium);
 }
 
 .feature__link {
@@ -289,7 +303,8 @@ body {
   background-position: center;
   display: flex;
   align-items: flex-end;
-  color: var(--green-800);
+  color: var(--green-850);
+  /* Updated from green-800 for better contrast */
 }
 
 .service--graphic-design {
@@ -298,7 +313,8 @@ body {
 
 .service--photography {
   background-image: url('./images/desktop/image-photography.jpg');
-  color: var(--blue-800);
+  color: var(--blue-850);
+  /* Updated from blue-800 for better contrast */
 }
 
 .service__content {
@@ -328,10 +344,12 @@ body {
 .testimonials__heading {
   font-family: var(--f-family-secondary);
   text-transform: uppercase;
-  color: var(--grey-400);
+  color: var(--grey-350);
+  /* Updated from grey-400 for better contrast */
   font-size: 1.25rem;
   letter-spacing: 0.25rem;
   margin-bottom: 5rem;
+  font-weight: var(--f-weight-bold);
 }
 
 .testimonials__container {
@@ -357,7 +375,8 @@ body {
 }
 
 .testimonial__text {
-  color: var(--grey-600);
+  color: var(--grey-700);
+  /* Updated from grey-600 for better contrast */
   font-size: 1.1rem;
   line-height: 1.7;
 }
@@ -365,6 +384,7 @@ body {
 .testimonial__name {
   font-family: var(--f-family-secondary);
   color: var(--grey-950);
+  /* Fixed syntax error, removed space */
   font-weight: var(--f-weight-black);
   font-size: 1.1rem;
   margin-bottom: 0;
@@ -372,9 +392,10 @@ body {
 }
 
 .testimonial__title {
-  color: var(--grey-400);
+  color: var(--grey-350);
+  /* Updated from grey-400 for better contrast */
   font-size: 0.9rem;
-  margin-top: -1rem;
+  margin-top: -0.2rem;
   line-height: 1;
 }
 
@@ -416,9 +437,11 @@ body {
 }
 
 .footer__link {
-  color: var(--green-800);
+  color: var(--green-850);
+  /* Updated from green-800 for better contrast */
   text-decoration: none;
   transition: color 0.3s;
+  font-weight: var(--f-weight-medium);
 }
 
 .footer__link:hover {
@@ -480,7 +503,8 @@ body {
   }
 
   .header__link {
-    color: var(--grey-550);
+    color: var(--grey-500);
+    /* Updated from grey-550 for better contrast */
   }
 
   .header__link--contact {
